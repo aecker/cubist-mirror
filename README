@@ -1,0 +1,12 @@
+# Potential errors
+
+`Cannot identify '/dev/video0': 2, No such file or directory`
+
+Most likely cause is that the webcam got unplugged. Do the following:
+
+ * Remove the container: `make rm-container`
+ * Unplug the webcam; wait a few seconds; plug it back in
+ * Verify that `/dev/video0` exists; if not, redo previous step
+ * Start container: `make start-container`
+ * Start demo: `make run-gpu`
+
