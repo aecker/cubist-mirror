@@ -10,3 +10,10 @@ Most likely cause is that the webcam got unplugged. Do the following:
  * Start container: `make start-container`
  * Start demo: `make run-gpu`
 
+
+# List of models
+
+`ls ~/fast-neural-style/*.t7`
+
+
+
