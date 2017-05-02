@@ -1,4 +1,4 @@
-models?=udnie.t7,feathers.t7,la_muse.t7,evian.t7,candy.t7,mosaic.t7 
+models?=udnie.t7,feathers.t7,la_muse.t7,evian.t7,candy.t7,mosaic.t7,the_scream.t7 
 model?=udnie.t7
 
 build:
