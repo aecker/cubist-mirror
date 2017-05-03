@@ -1,0 +1,11 @@
+[Desktop Entry]  
+Version=1.0
+Exec=/home/aecker/cubist-mirror/start-mirror.sh
+Name=Start Cubist Mirror
+GenericName=Start Cubist Mirror
+Comment=Starts the Cubist MIrror
+Encoding=UTF-8
+Terminal=true
+Type=Application
+Categories=Application;
+
