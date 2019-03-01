@@ -7,3 +7,13 @@ do
 done
 xdotool windowsize $ID 1920 1080
 
+while true
+do
+	ACTIVE=`xdotool getactivewindow`
+	if [ $ACTIVE != $ID ]
+	then
+		xdotool windowclose $ACTIVE
+	fi
+	sleep 0.5
+done
+
